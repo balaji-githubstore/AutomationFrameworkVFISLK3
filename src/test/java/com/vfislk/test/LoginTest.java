@@ -12,7 +12,7 @@ import com.vfislk.utilities.DataUtils;
 
 /**
  * 
- * @author Bala
+ * @author Balaji Dinakran
  *
  *This class handles all the test case related to login scenario
  */
