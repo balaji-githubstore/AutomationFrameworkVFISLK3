@@ -1,2 +1,12 @@
+com\vfislk\pages\AboutPage.class
+com\vfislk\test\PatientTest.class
 com\vfislk\test\LoginTest.class
-com\vfislk\test\Chck.class
+com\vfislk\utilities\ExcelUtils.class
+com\vfislk\utilities\PropUtils.class
+com\vfislk\test\DemoTest.class
+com\vfislk\base\WebDriverWrapper.class
+com\vfislk\test\Demo.class
+com\vfislk\utilities\DataUtils.class
+com\vfislk\pages\LoginPage.class
+com\vfislk\pages\DashboardPage.class
+com\vfislk\test\AboutTest.class

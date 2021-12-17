@@ -4,10 +4,7 @@
 
 	<test thread-count="5" name="Login Test">
 		<classes>
-			<class name="com.vfislk.test.LoginTest">
-				<methods>
-					<include name="invalidCredentialTest"></include>
-				</methods>
+			<class name="com.vfislk.test.DemoTest">
 			</class>
 		</classes>
 	</test> <!-- Test -->
