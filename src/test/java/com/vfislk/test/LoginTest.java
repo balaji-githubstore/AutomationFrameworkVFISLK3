@@ -45,7 +45,7 @@ public class LoginTest extends WebDriverWrapper {
 		login.enterPassword(password);
 		test.log(Status.INFO, "Entered Password");
 		login.selectLangaugeByText(language);
-		test.log(Status.INFO, "Selected Language "+language);
+		test.log(Status.INFO, "Selected Language as "+language);
 		login.clickOnLogin();
 
 		String actualError = login.getInvalidErrorMessage();
