@@ -1,6 +1,7 @@
 package com.vfislk.test;
 
 import org.testng.Assert;
+
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -9,6 +10,12 @@ import com.vfislk.pages.DashboardPage;
 import com.vfislk.pages.LoginPage;
 import com.vfislk.utilities.DataUtils;
 
+/**
+ * 
+ * @author Bala
+ *
+ *This class handles all the test case related to login scenario
+ */
 public class LoginTest extends WebDriverWrapper {
 
 	@Test(dataProviderClass = DataUtils.class, dataProvider = "commonDataProvider",groups = {"low"})
