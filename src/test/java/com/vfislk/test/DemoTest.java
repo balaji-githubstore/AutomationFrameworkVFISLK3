@@ -2,7 +2,9 @@ package com.vfislk.test;
 
 import org.testng.annotations.Test;
 
-public class DemoTest {
+import com.vfislk.base.WebDriverWrapper;
+
+public class DemoTest extends WebDriverWrapper {
 	
 	@Test
 	public void demoTest()
